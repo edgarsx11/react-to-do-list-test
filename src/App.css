@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(333deg, #d340e0 0%, #b2d2fc 100%);
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  min-height: 1600px;
+}
+header {
+  font-size: 95px;
+  font-family: 'Satisfy', cursive;
+}
+
+header,
+form {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input,
+form button {
+  padding: 5px;
+  font-size: 35px;
+  border: none;
+  background: white;
+}
+form button {
+  color: #c353f0;
+}
+form button:hover {
+  background: #c353f0;
+
+}
+.notes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notes-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.note {
+  margin: 7px;
+  background: white;
+  font-size: 18px;
+  color: black;
+  display: flex;
+
+}
+.filter-note {
+  padding: 15px;
+}
+.note li {
+  flex: 1;
+}
+
+
+.note-item {
+  padding: 5px;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+
+.select {
+  margin: 5px;
+  position: relative;
+}
+
+select {
+  color: black;;
+  font-family: 'Comfortaa', cursive;
+  cursor: pointer;
+  width: 175px;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  background: #c353f0;;
+  cursor: pointer;
+  pointer-events: none;
+}
+

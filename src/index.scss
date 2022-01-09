@@ -1,0 +1,34 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-primary {
+  background-color: aquamarine;
+}
+
+.btn {
+  border-radius: 0px;
+  color:white;
+}
+
+.btn-done {
+  background-color: green;
+  margin:auto;
+}
+
+.btn-delete{
+  background-color:red;
+  margin:auto;
+}
